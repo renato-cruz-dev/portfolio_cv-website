@@ -1,0 +1,122 @@
+#nav-container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: calc(1200px + 6rem + 30px);
+}
+
+#website-nav-bar {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+  right: 2rem;
+}
+
+#website-hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-website-links {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 0) 0%,
+    rgba(28, 31, 33, 1) 100%
+  );
+}
+
+#menu-btn {
+  background: none;
+  border: none;
+  width: 40px;
+  cursor: var(--cursor-pointer);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-btn-icon,
+#menu-close-btn-icon {
+  cursor: var(--cursor-pointer);
+  width: 90%;
+}
+
+#menu-btn-icon:hover,
+#menu-close-btn-icon:hover {
+  opacity: 50%;
+}
+
+.active {
+  display: flex;
+}
+
+.nav-website-links a {
+  font-family: var(--secondary-font);
+  font-size: 2.5vmin;
+  text-decoration: none;
+  cursor: var(--cursor-pointer);
+}
+
+.nav-website-links a:hover {
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.nav-website-links #about-link:hover {
+  background-image: url("../../assets/images/me-myself-and-i_beige.png");
+  background-size: cover;
+}
+
+.nav-website-links #cook-link:hover {
+  background-image: url("../../assets/images/knife_beige.png");
+  background-size: contain;
+}
+
+.nav-website-links #dev-link:hover {
+  background-image: url("../../assets/images/dev_beige.svg");
+  background-size: contain;
+}
+
+.nav-website-links #portfolio-link:hover {
+  background-image: url("../../assets/images/portfolio_beige.svg");
+  background-size: contain;
+}
+
+#nav-contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#nav-contact-links a {
+  width: 30px;
+  cursor: var(--cursor-pointer);
+}
+
+#nav-contact-links a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}

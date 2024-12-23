@@ -1,0 +1,104 @@
+#cook-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: 10rem;
+}
+
+#cook-section-title {
+  font-family: var(--primary-font);
+  font-size: 40vmin;
+  color: var(--primary-color);
+  vertical-align: middle;
+}
+
+#cook-info-container {
+  display: flex;
+  height: 100%;
+  width: fit-content;
+  gap: 1rem;
+}
+
+#cook-education,
+#cook-experience {
+  background-color: var(--primary-color);
+  transition: 1s ease-in-out;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.cook-title {
+  font-size: 7vmin;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+.cook-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  font-family: var(--secondary-font);
+}
+
+.education-info-container,
+.experience-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experience-info-container {
+  align-items: flex-end;
+}
+
+.cook-year {
+  font-family: var(--primary-font);
+  font-size: 3vmin;
+  letter-spacing: 3px;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.cook-course {
+  font-size: 2vmin;
+  color: var(--bg-dark-grey);
+}
+
+.cook-school {
+  font-size: 1.5vmin;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 1600px) {
+  #cook-section-title {
+    font-size: 30vmin;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  #cook-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #cook-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}

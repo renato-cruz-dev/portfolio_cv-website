@@ -1,0 +1,69 @@
+#interests-item {
+  grid-area: interests;
+  gap: 1rem;
+}
+
+#interests-item span {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 0.7rem;
+}
+
+#interests-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border: 1px solid var(--primary-color);
+  padding: 2rem;
+}
+
+#interests-btns {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#interests-btns button {
+  background: none;
+  border: none;
+  font-size: 2vmin;
+  font-family: var(--secondary-font);
+  cursor: var(--cursor-pointer);
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  opacity: 0.5;
+}
+
+#interests-btns button:hover {
+  color: var(--secondary-color);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#interests-btns .active-interests-btn {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+#interests-tags {
+  line-height: 2.5rem;
+  text-align: end;
+  width: 80%;
+  align-self: flex-end;
+}
+
+#interests-tags div {
+  display: inline-block;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  margin-right: 1.5rem;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  opacity: 0.2;
+}
+
+#interests-tags .active-interest-tag {
+  color: var(--primary-color);
+  transition: 1s;
+  opacity: 1;
+}

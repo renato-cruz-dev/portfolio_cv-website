@@ -1,0 +1,20 @@
+#hobbies-item {
+    justify-content: flex-end;
+    grid-area: hobbies;
+    gap: 1rem;
+}
+
+#hobbies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+    align-items: flex-end;
+}
+
+#hobbies-container li {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+

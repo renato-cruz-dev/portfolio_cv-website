@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Six+Caps&display=swap");
+
+:root {
+  /* FONTS */
+  --primary-font: "Six Caps";
+  --secondary-font: "Inter";
+
+  /* COLOR PALLETE */
+  --bg-dark-grey: #1c1f21;
+  --bg-dark-grey-opacity: hsla(210, 7%, 12%, 0.3);
+  --light-grey-color: rgb(42, 42, 42);
+  --black-color: #191919;
+  --primary-color: rgb(248, 207, 179);
+  --primary-color-opacity: rgb(248, 207, 179, 0.7);
+  --primary-color-opacity-50: rgb(248, 207, 179, 0.5);
+  --secondary-color: rgb(129, 108, 94);
+  --secondary-color-opacity: rgb(129, 108, 94, 0.7);
+  --secondary-color-opacity-30: rgb(129, 108, 94, 0.3);
+  --cursor-normal: url("assets/cursor/cursor_normal.png") 7.5 7.5, move;
+  --cursor-pointer: url("assets/cursor/cursor_pointer.png") 20 20, move;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--bg-dark-grey);
+  cursor: var(--cursor-normal);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* border: 1px solid red; */
+  max-width: 1200px;
+}
+
+.prime-clr {
+  color: var(--primary-color);
+}
+
+.prime-bg {
+  background-color: var(--primary-color);
+}
+
+.second-clr {
+  color: var(--secondary-color);
+}
+
+.second-bg {
+  background-color: var(--secondary-color);
+}
+
+.d-grey-clr {
+  color: var(--bg-dark-grey);
+}
+
+.d-grey-bg {
+  background-color: var(--bg-dark-grey);
+}
+
+.prime-clr-o50 {
+  color: var(--primary-color-opacity-50);
+}
+
+.prime-brdr {
+  border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 576px;
+  }
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 480px) {
+}

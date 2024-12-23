@@ -1,0 +1,97 @@
+#personal-item {
+  grid-area: personal;
+  gap: 3rem;
+  text-align: center;
+}
+
+#personal-info-container {
+  display: grid;
+  grid-template:
+    "img description description"
+    "points description description";
+  gap: 2rem;
+}
+
+.personal-info-item {
+  backdrop-filter: blur(2px);
+  padding: 2rem;
+}
+
+#personal-description {
+  grid-area: description;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#personal-description li,
+#personal-points li {
+  font-family: var(--secondary-font);
+  font-size: 2vmin;
+  color: var(--primary-color-opacity-50);
+  line-height: 2.5rem;
+}
+
+#personal-description li span {
+  color: var(--primary-color);
+}
+
+#personal-description li .topic-number {
+  font-family: var(--primary-font);
+  font-size: 3vmin;
+  color: var(--secondary-color-opacity);
+  margin-right: 0.5rem;
+}
+
+#personal-points {
+  grid-area: points;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+#personal-points li {
+  color: var(--primary-color);
+}
+
+#personal-img-container {
+  grid-area: img;
+  width: calc(100% - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color-opacity);
+}
+
+#personal-img-container img {
+  width: 50%;
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1200px) {
+  #personal-info-container {
+    grid-template:
+      "img points"
+      "description description";
+  }
+}
+
+@media (max-width: 992px) {
+  #personal-info-container {
+    grid-template:
+      "img"
+      "points"
+      "description";
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}

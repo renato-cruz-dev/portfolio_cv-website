@@ -1,0 +1,33 @@
+#img-container {
+  position: fixed;
+  padding-top: 2rem;
+  z-index: 5;
+}
+
+#img-container img {
+  width: 80%;
+  max-width: 1200px;
+  transition: 0.5s;
+}
+
+#img-container img.animate-logo {
+  width: 10%;
+}
+
+@media (max-width: 1600px) {
+  #img-container img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}

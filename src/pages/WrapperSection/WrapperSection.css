@@ -1,0 +1,41 @@
+#wrapper-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-wrapper {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  font-family: var(--secondary-font);
+  font-size: 7vmin;
+}
+
+#main-wrapper-info {
+  width: 100%;
+  padding-bottom: 7rem;
+  line-height: 150%;
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1200px) {
+  #main-wrapper-info {
+    font-size: 6vmin;
+    padding-bottom: 35%;
+  }
+}
+
+@media (max-width: 992px) {
+  #main-wrapper-info {
+    text-align: center;
+    padding-bottom: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}
