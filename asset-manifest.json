@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio_cv-website/static/css/main.d72214d9.css",
+    "main.js": "/portfolio_cv-website/static/js/main.4f54c912.js",
+    "static/js/453.eb7e8abf.chunk.js": "/portfolio_cv-website/static/js/453.eb7e8abf.chunk.js",
+    "static/media/me-myself-and-i_beige.png": "/portfolio_cv-website/static/media/me-myself-and-i_beige.4f177caf14c5a36d3e0a.png",
+    "static/media/me-myself-and-i_grey.png": "/portfolio_cv-website/static/media/me-myself-and-i_grey.9f8395020690f8db268c.png",
+    "static/media/logo.png": "/portfolio_cv-website/static/media/logo.903795151ed253f8f0b3.png",
+    "static/media/knife_beige.png": "/portfolio_cv-website/static/media/knife_beige.a5823fcd4b1c76cdadfc.png",
+    "static/media/cursor_pointer.png": "/portfolio_cv-website/static/media/cursor_pointer.80112f4c3ad9afada3d3.png",
+    "static/media/cursor_normal.png": "/portfolio_cv-website/static/media/cursor_normal.13aac0ffca9738f1cd4f.png",
+    "static/media/square-github.svg": "/portfolio_cv-website/static/media/square-github.6c678002ab427e15012fabadbfbc2194.svg",
+    "static/media/square-instagram.svg": "/portfolio_cv-website/static/media/square-instagram.156dc5d3735c80ceb03b77664aedf8d3.svg",
+    "static/media/github-icon.svg": "/portfolio_cv-website/static/media/github-icon.4959f783c6eba2b709b776fe0b67f56a.svg",
+    "static/media/link-icon.svg": "/portfolio_cv-website/static/media/link-icon.c547cbca4fe197c697b55323193918df.svg",
+    "static/media/dev_beige.svg": "/portfolio_cv-website/static/media/dev_beige.fe8af7f0b225b6360e88.svg",
+    "static/media/square-linkedin.svg": "/portfolio_cv-website/static/media/square-linkedin.10f4a62d9136057ebfbe5e3216bbd0f9.svg",
+    "static/media/square-envelope.svg": "/portfolio_cv-website/static/media/square-envelope.1ad2e8b3096de51e667ee05678277589.svg",
+    "index.html": "/portfolio_cv-website/index.html",
+    "static/media/portfolio_beige.svg": "/portfolio_cv-website/static/media/portfolio_beige.e465236068245e4f2376.svg",
+    "static/media/bars_menu.svg": "/portfolio_cv-website/static/media/bars_menu.0edb6a8be7a067de7440da387c7f9a6a.svg",
+    "static/media/close_menu.svg": "/portfolio_cv-website/static/media/close_menu.04bd4a754d71375414e75691f0e29e3a.svg",
+    "static/media/square-facebook.svg": "/portfolio_cv-website/static/media/square-facebook.c7022bb265ff1587b21cbfe7160ce453.svg",
+    "main.d72214d9.css.map": "/portfolio_cv-website/static/css/main.d72214d9.css.map",
+    "main.4f54c912.js.map": "/portfolio_cv-website/static/js/main.4f54c912.js.map",
+    "453.eb7e8abf.chunk.js.map": "/portfolio_cv-website/static/js/453.eb7e8abf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d72214d9.css",
+    "static/js/main.4f54c912.js"
+  ]
+}
