@@ -41,3 +41,9 @@
     grid-row: span 2;
   }
 }
+
+@media (max-width: 485px) {
+  #story {
+    grid-row: span 3;
+  }
+}
