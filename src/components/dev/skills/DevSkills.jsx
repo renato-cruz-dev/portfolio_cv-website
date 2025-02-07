@@ -18,7 +18,7 @@ const DevSkills = ({ data, filter, getOrder }) => {
           >
             <div className="skill-img">
               <img
-                src={`/assets/${skill.icon}`}
+                src={`../../../assets/${skill.icon}`}
                 alt={`${skill.language} icon`}
               />
             </div>
