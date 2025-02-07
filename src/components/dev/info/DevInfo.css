@@ -1,0 +1,46 @@
+#dev-info {
+  grid-row: span 2;
+}
+
+.dev-buttons button {
+  display: flex;
+  width: 100%;
+  height: var(--button-height);
+  border-radius: var(--border-rad);
+  color: var(--color-2);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--button-shadow);
+}
+
+.dev-buttons button:hover {
+  box-shadow: var(--light-button-shadow-hover);
+}
+
+#dev-btn__selected {
+  box-shadow: var(--light-button-shadow-hover);
+}
+
+@media (max-width: 1399.98px) {
+  #dev-info {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #dev-info {
+    grid-column: span 1;
+  }
+
+  #dev-info .card-info {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #dev-info {
+    grid-column: span 1;
+  }
+}

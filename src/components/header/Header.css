@@ -1,0 +1,70 @@
+header {
+  width: 100%;
+  height: 50px;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: "header";
+}
+
+#logo {
+  height: 60px;
+}
+
+#contact-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: var(--border-rad);
+  box-shadow: var(--button-shadow);
+}
+
+#contact-button {
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  box-shadow: var(--button-shadow);
+}
+
+#contact-button:hover {
+  box-shadow: var(--light-button-shadow-hover);
+}
+
+#hamburguer-button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: fit-content;
+  padding: 0.7rem 0.7rem;
+  border-radius: var(--border-rad);
+  background-color: var(--color-2);
+  box-shadow: var(--button-shadow);
+}
+
+#hamburguer-button img {
+  height: 100%;
+  filter: invert(100%);
+  border-radius: var(--border-rad);
+}
+
+#hamburguer-button img:hover {
+  box-shadow: var(--dark-button-shadow-hover);
+}
+
+@media (max-width: 767.98px) {
+  header {
+    height: fit-content;
+  }
+
+  #hamburguer-button {
+    display: block;
+  }
+
+  #contact-button-container {
+    display: none;
+  }
+}

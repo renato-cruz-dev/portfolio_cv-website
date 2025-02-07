@@ -1,0 +1,73 @@
+#hamburguer-nav {
+  width: 100%;
+  background-color: var(--color-2);
+  padding: 1rem 1rem 2rem;
+  border-radius: 0 0 32px 32px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: var(--button-shadow);
+}
+
+#close-menu-button {
+  align-self: flex-end;
+  height: 50px;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: 32px;
+  background-color: var(--color-2);
+  box-shadow: var(--button-shadow);
+}
+
+#close-menu-button:hover {
+  box-shadow: var(--dark-button-shadow-hover);
+}
+
+#close-menu-button img {
+  height: 100%;
+  filter: invert(100%);
+  border-radius: 100px;
+  padding: 0.5rem 0.5rem;
+}
+
+.nav-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav-buttons button {
+  width: 60%;
+  padding: 1rem 1rem;
+}
+
+#hamburguer-contact-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  padding: 0.5rem 0.5rem;
+  border-radius: var(--border-rad);
+  box-shadow: var(--button-shadow);
+  background-color: var(--color-1);
+}
+
+#hamburguer-contact-button-container a {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  #hamburguer-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+}

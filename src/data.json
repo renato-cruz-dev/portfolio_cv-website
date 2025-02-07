@@ -1,0 +1,126 @@
+{
+  "socialLinks": [
+    {
+      "network": "instagram",
+      "link": "https://www.instagram.com/renato_cruz96/",
+      "code": "insta"
+    },
+    {
+      "network": "facebook",
+      "link": "https://www.facebook.com/renato.cruz.58",
+      "code": "facebook"
+    },
+    {
+      "network": "linkedIn",
+      "link": "https://www.linkedin.com/in/renato-cruz-79a747339",
+      "code": "linkedIn"
+    },
+    {
+      "network": "gitHub",
+      "link": "https://www.facebook.com/renato.cruz.58",
+      "code": "gitHub"
+    }
+  ],
+  "cook": {
+    "education": [
+      {
+        "year": "2017 - 2019",
+        "school": "Escola de Hotelaria e Turismo do Porto",
+        "abbreviation": "EHTP",
+        "course": "culinary arts",
+        "coursetype": "specialization"
+      },
+      {
+        "year": "2014 - 2017",
+        "school": "Escola Superior de Hotelaria e Turismo",
+        "abbreviation": "ESHT",
+        "course": "hotel management",
+        "coursetype": "degree"
+      }
+    ],
+    "experience": [
+      {
+        "date": "feb 2022 - jul 2023",
+        "position": "food-stylist",
+        "workplace": "Prozis"
+      },
+      {
+        "date": "jan 2021 - jan 2022",
+        "position": "sous chef",
+        "workplace": "Villa C"
+      },
+      {
+        "date": "feb 2020 - jan 2021",
+        "position": "sous chef",
+        "workplace": "Solar do Gordo"
+      },
+      {
+        "date": "may 2019 - feb 2020",
+        "position": "cook",
+        "workplace": "Le Monument"
+      }
+    ]
+  },
+  "dev": {
+    "education": [
+      {
+        "year": "2023 - 2024",
+        "school": "EDIT.",
+        "course": "Full-Stack Development",
+        "coursetype": "course"
+      },
+      {
+        "year": "2024 - current",
+        "school": "Codecademy",
+        "course": "Full-Stack Development",
+        "coursetype": "course"
+      },
+      {
+        "year": "2024 - 2024",
+        "school": "Udemy",
+        "course": "Ethereum & Solidity Programming",
+        "coursetype": "course"
+      }
+    ],
+    "portfolio": [
+      {
+        "year": 2024,
+        "project": "North Music Festival",
+        "collaborators": "UX/UI - Ana Isabel Ferreira",
+        "link": "",
+        "gitHubLink": "",
+        "workFor": "self-project",
+        "done": "work in progress",
+        "code": "nmf"
+      },
+      {
+        "year": 2024,
+        "project": "Space Website",
+        "collaborators": "",
+        "link": "",
+        "gitHubLink": "https://github.com/renato-cruz-dev/1-edit-frontend_mentor-space_website",
+        "workFor": "self-project",
+        "done": "finished work",
+        "code": "space"
+      },
+      {
+        "year": 2024,
+        "project": "Expense Tracker",
+        "collaborators": "",
+        "link": "",
+        "gitHubLink": "https://github.com/ren-cruz-dev/1-frontendmentor_mortgage-calculator",
+        "workFor": "self-project",
+        "done": "work in progress",
+        "code": "expense"
+      }
+    ],
+    "skills": [
+      { "language": "HTML5", "icon": "html5-logo.png" },
+      { "language": "CSS3", "icon": "css3-logo.png" },
+      { "language": "Javascript", "icon": "javascript-logo.png" },
+      { "language": "React", "icon": "react-logo.png" },
+      { "language": "GitHub", "icon": "github-logo.png" },
+      { "language": "Solidity", "icon": "solidity-logo.png" }
+    ]
+  }
+}

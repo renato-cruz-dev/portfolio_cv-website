@@ -1,0 +1,56 @@
+#cook-info {
+  grid-row: span 2;
+}
+
+.cook-card {
+  background-color: var(--color-2);
+}
+
+.cook-card img {
+  filter: invert(100%);
+}
+
+.cook-card .category-title {
+  box-shadow: var(--dark-button-shadow-hover);
+  color: var(--color-1);
+  background-color: var(--color-2);
+}
+
+.cook-card .category-icon {
+  box-shadow: var(--dark-button-shadow-hover);
+  background-color: var(--color-2);
+}
+
+.cook-card .card-info {
+  color: var(--color-1);
+}
+
+.cook-buttons button {
+  display: flex;
+  width: 100%;
+  height: var(--button-height);
+  border-radius: var(--border-rad);
+  color: var(--color-1);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--button-shadow);
+}
+
+.cook-buttons button:hover {
+  box-shadow: var(--dark-button-shadow-hover);
+}
+
+#cook-btn__selected {
+  box-shadow: var(--dark-button-shadow-hover);
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
