@@ -16,12 +16,6 @@ const DevSkills = ({ data, filter, getOrder }) => {
             className="dev-skill"
             key={skill.language}
           >
-            <div className="skill-img">
-              <img
-                src={`../../../assets/${skill.icon}`}
-                alt={`${skill.language} icon`}
-              />
-            </div>
             <p className="text__regular">{skill.language}</p>
           </div>
         );
