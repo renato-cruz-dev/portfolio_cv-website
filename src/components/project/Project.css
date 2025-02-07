@@ -98,6 +98,13 @@
 }
 
 @media (max-width: 767.98px) {
+  .project-title {
+    background-color: var(--color-1);
+  }
+
+  #project-space .project-title {
+    color: var(--color-2);
+  }
 }
 
 @media (max-width: 575.98px) {

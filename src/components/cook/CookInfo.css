@@ -50,7 +50,17 @@
 }
 
 @media (max-width: 767.98px) {
+  #cook-info {
+    grid-column: span 2;
+  }
+
+  #cook-info .card-info {
+    padding: 0 1rem;
+  }
 }
 
 @media (max-width: 575.98px) {
+  #cook-info {
+    grid-column: span 1;
+  }
 }
