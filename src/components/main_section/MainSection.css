@@ -32,7 +32,7 @@
 }
 
 .card__inactive {
-  opacity: 10%;
+  display: none !important;
 }
 
 /* CATEGORY CARD */

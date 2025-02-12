@@ -33,6 +33,6 @@
 @media (max-width: 485px) {
   #description img {
     align-self: center;
-    width: 140px;
+    width: 40%;
   }
 }
