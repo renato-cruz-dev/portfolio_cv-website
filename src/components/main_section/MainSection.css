@@ -41,7 +41,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 3rem;
   padding: 1rem;
 }
 
@@ -131,6 +130,7 @@
   --grid-gap: 1rem;
 
   display: grid;
+  justify-content: center;
   grid-area: main-section;
   gap: 1rem;
   padding: 1rem;
@@ -146,6 +146,7 @@
     var(--max-width) / var(--grid-columns) -
       (var(--grid-gap) * (var(--grid-columns) - 1))
   );
+  width: 100%;
 }
 
 @media (max-width: 1399.98px) {

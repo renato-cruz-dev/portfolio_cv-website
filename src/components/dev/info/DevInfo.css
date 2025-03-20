@@ -39,6 +39,12 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  #dev-info .card-info {
+    gap: 0.5rem;
+  }
+}
+
 @media (max-width: 575.98px) {
   #dev-info {
     grid-column: span 1;

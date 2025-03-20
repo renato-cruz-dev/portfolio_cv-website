@@ -2,7 +2,7 @@
   --max-width: 1400px;
   --app-padding: 1rem;
 
-  width: 100vw;
+  width: 90%;
   max-width: var(--max-width);
   background-color: rgb(247, 242, 242);
   margin: 0 auto;
@@ -29,5 +29,11 @@
 @media (max-width: 767.98px) {
   .app {
     --max-width: 530px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .app {
+    --max-width: 400px;
   }
 }
