@@ -73,56 +73,54 @@
 /* FONT-SIZES */
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 3vmin;
+}
+
+h2 {
+  font-size: 2.5vmin;
+}
+
+h3 {
+  font-size: 2vmin;
+}
+
+h4 {
+  font-size: 2vmin;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.7vmin;
 }
 
 p {
-  font-size: 0.7rem;
-}
-
-@media (max-width: 1399.98px) {
-  h1 {
-    font-size: 1.7rem;
-  }
-
-  h5 {
-    font-size: 0.7rem;
-  }
-
-  p {
-    font-size: 0.7rem;
-  }
+  font-size: 1.5vmin;
 }
 
 @media (max-width: 991.98px) {
   h1 {
-    font-size: 1.3rem;
+    font-size: 3vmin;
   }
 
   h5 {
-    font-size: 0.7rem;
+    font-size: 2vmin;
   }
 
   p {
-    font-size: 0.7rem;
+    font-size: 1.7vmin;
   }
 }
 
 @media (max-width: 767.98px) {
   h1 {
-    font-size: 1.3rem;
+    font-size: 2.5vmin;
   }
 
   h5 {
-    font-size: 0.6rem;
+    font-size: 1.5vmin;
   }
 
   p {
-    font-size: 0.7rem;
+    font-size: 1.3vmin;
   }
 }
 
@@ -132,14 +130,14 @@ p {
   }
 
   h1 {
-    font-size: 1.3rem;
+    font-size: 5vmin;
   }
 
   h5 {
-    font-size: 0.7rem;
+    font-size: 3vmin;
   }
 
   p {
-    font-size: 0.6rem;
+    font-size: 3vmin;
   }
 }

@@ -30,8 +30,12 @@
 }
 
 @media (max-width: 991.98px) {
+  #dev-info {
+    grid-column: span 1;
+  }
+
   #dev-info .card-info {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 }
 

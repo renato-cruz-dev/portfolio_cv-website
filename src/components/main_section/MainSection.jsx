@@ -10,6 +10,22 @@ import Project from "../project/Project";
 import SocialNetwork from "../socialNetwork/SocialNetwork";
 
 const MainSection = ({ filter, data }) => {
+  const display = (filter) => {
+    if (filter === "all") {
+      return "main__all";
+    } else if (filter === "about") {
+      return "main__about";
+    } else if (filter === "cook") {
+      return "main__cook";
+    } else if (filter === "dev") {
+      return "main__dev";
+    } else if (filter === "portfolio") {
+      return "main__portfolio";
+    } else {
+      return new Error("No filter selected. Check error on nav selection.");
+    }
+  };
+
   const getOrder = (category) => {
     if (filter === category) return "order-1";
     if (filter === "all") return "order-2";
@@ -17,7 +33,7 @@ const MainSection = ({ filter, data }) => {
   };
 
   return (
-    <section id="main">
+    <section id="main" className={display(filter)}>
       <Description filter={filter} getOrder={getOrder} />
       <Story filter={filter} getOrder={getOrder} />
       <CookInfo data={data.cook} filter={filter} getOrder={getOrder} />

@@ -32,7 +32,7 @@
 }
 
 .card__inactive {
-  display: none !important;
+  opacity: 10%;
 }
 
 /* CATEGORY CARD */
@@ -163,8 +163,5 @@
 @media (max-width: 575.98px) {
   #main {
     --grid-columns: 1;
-
-    grid-template-columns: repeat(var(--grid-columns), 85vw);
-    grid-auto-rows: 85vw;
   }
 }

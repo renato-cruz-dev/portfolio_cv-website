@@ -112,6 +112,16 @@
         "workFor": "self-project",
         "done": "work in progress",
         "code": "expense"
+      },
+      {
+        "year": 2025,
+        "project": "Expense Tracker Full Stack",
+        "collaborators": "",
+        "link": "",
+        "gitHubLink": "https://https://github.com/renato-cruz-dev/expense_tracker-full_stack-self_project",
+        "workFor": "self-project",
+        "done": "work in progress",
+        "code": "expenseFull"
       }
     ],
     "skills": [
