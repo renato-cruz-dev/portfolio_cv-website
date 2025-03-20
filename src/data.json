@@ -12,12 +12,12 @@
     },
     {
       "network": "linkedIn",
-      "link": "https://www.linkedin.com/in/renato-cruz-79a747339",
+      "link": "https://www.linkedin.com/in/renato-cruz-dev/",
       "code": "linkedIn"
     },
     {
       "network": "gitHub",
-      "link": "https://www.facebook.com/renato.cruz.58",
+      "link": "https://github.com/renato-cruz-dev",
       "code": "gitHub"
     }
   ],
@@ -87,7 +87,7 @@
         "year": 2024,
         "project": "North Music Festival",
         "collaborators": "UX/UI - Ana Isabel Ferreira",
-        "link": "",
+        "link": "https://github.com/renato-cruz-dev/north-music-festival_self-project",
         "gitHubLink": "",
         "workFor": "self-project",
         "done": "work in progress",

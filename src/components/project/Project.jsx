@@ -27,7 +27,12 @@ const Project = ({ filter, getOrder, index, project }) => {
           ) : null}
         </div>
       </div>
-      <a href="" className="git-button">
+      <a
+        href={project.gitHubLink}
+        rel="noreferrer"
+        target="_blank"
+        className="git-button"
+      >
         <img src={gitIcon} alt="git hub icon with link to project" />
         <p className="button-action text__regular">gitHub</p>
       </a>
